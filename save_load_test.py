@@ -7,7 +7,8 @@ class TestSaveLoad(unittest.TestCase):
         file = File()
 
     def test_load(self):
-        self.file.load("C:/Users/Megg/Programs/Python/Once a Day Daily Habit Tracker Planner/saves/test.csv")
+        file = File("C:/Users/Megg/Programs/Python/Once a Day Daily Habit Tracker Planner/saves/test.csv")
+        file.load()
 
 
 if __name__ == '__main__':
